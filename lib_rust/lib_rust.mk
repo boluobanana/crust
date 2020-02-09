@@ -3,3 +3,6 @@ gen_rust_cheader:
 
 build_rust_lib:
 	cd lib_rust && cargo build
+
+rust_compilation:
+	cd lib_rust &&  cargo rustc -- --emit asm

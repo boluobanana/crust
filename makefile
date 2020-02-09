@@ -1,2 +1,2 @@
-include client_c/c.mk
-include lib_rust/rust.mk
+include client_c/client_c.mk
+include lib_rust/lib_rust.mk
