@@ -4,10 +4,13 @@ version = "0.1.0"
 authors = ["吴宇涛 <wuyutao@bytedance.com>"]
 edition = "2018"
 
+build="build.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 
 
 [build-dependencies]
-bindgen = "0.51.1"
+# bindgen = "0.51.1"
+cc = "1.0"
